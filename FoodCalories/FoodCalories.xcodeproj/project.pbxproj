@@ -14,6 +14,8 @@
 		18016F4D1F5226CB006AA34B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18016F4B1F5226CB006AA34B /* LaunchScreen.storyboard */; };
 		18016F581F5226CC006AA34B /* FoodCaloriesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18016F571F5226CC006AA34B /* FoodCaloriesTests.swift */; };
 		18016F631F5226CC006AA34B /* FoodCaloriesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18016F621F5226CC006AA34B /* FoodCaloriesUITests.swift */; };
+		1811E7771F5253D000E24C8D /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1811E7761F5253D000E24C8D /* logo.png */; };
+		1811E7791F525E8D00E24C8D /* Screen Shot 2017-08-26 at 20.20.42.png in Resources */ = {isa = PBXBuildFile; fileRef = 1811E7781F525E8D00E24C8D /* Screen Shot 2017-08-26 at 20.20.42.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		18016F5E1F5226CC006AA34B /* FoodCaloriesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodCaloriesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18016F621F5226CC006AA34B /* FoodCaloriesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCaloriesUITests.swift; sourceTree = "<group>"; };
 		18016F641F5226CC006AA34B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1811E7761F5253D000E24C8D /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = ../../../../Downloads/logo.png; sourceTree = "<group>"; };
+		1811E7781F525E8D00E24C8D /* Screen Shot 2017-08-26 at 20.20.42.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2017-08-26 at 20.20.42.png"; path = "../../../Screen Shot 2017-08-26 at 20.20.42.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 				18016F441F5226CB006AA34B /* ViewController.swift */,
 				18016F461F5226CB006AA34B /* Main.storyboard */,
 				18016F491F5226CB006AA34B /* Assets.xcassets */,
+				1811E7781F525E8D00E24C8D /* Screen Shot 2017-08-26 at 20.20.42.png */,
+				1811E7761F5253D000E24C8D /* logo.png */,
 				18016F4B1F5226CB006AA34B /* LaunchScreen.storyboard */,
 				18016F4E1F5226CB006AA34B /* Info.plist */,
 			);
@@ -193,6 +199,7 @@
 				TargetAttributes = {
 					18016F3E1F5226CB006AA34B = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = W58CB67N9F;
 						ProvisioningStyle = Automatic;
 					};
 					18016F521F5226CC006AA34B = {
@@ -232,6 +239,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1811E7791F525E8D00E24C8D /* Screen Shot 2017-08-26 at 20.20.42.png in Resources */,
+				1811E7771F5253D000E24C8D /* logo.png in Resources */,
 				18016F4D1F5226CB006AA34B /* LaunchScreen.storyboard in Resources */,
 				18016F4A1F5226CB006AA34B /* Assets.xcassets in Resources */,
 				18016F481F5226CB006AA34B /* Main.storyboard in Resources */,
@@ -412,6 +421,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W58CB67N9F;
 				INFOPLIST_FILE = FoodCalories/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Admin3.FoodCalories;
@@ -424,6 +434,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W58CB67N9F;
 				INFOPLIST_FILE = FoodCalories/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Admin3.FoodCalories;
@@ -505,6 +516,7 @@
 				18016F691F5226CC006AA34B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18016F6A1F5226CC006AA34B /* Build configuration list for PBXNativeTarget "FoodCaloriesTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +525,7 @@
 				18016F6C1F5226CC006AA34B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18016F6D1F5226CC006AA34B /* Build configuration list for PBXNativeTarget "FoodCaloriesUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +534,7 @@
 				18016F6F1F5226CC006AA34B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
